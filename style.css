@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form input, form button {
+    margin: 5px;
+    padding: 10px;
+}
+
+#inventory-list {
+    margin-top: 20px;
+}
