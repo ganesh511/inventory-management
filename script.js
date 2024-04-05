@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
             .then(response => response.json())
             .then(data => {
-                fetchInventory();
+                fetchInventory(); // Fetch updated inventory after adding the item
                 addItemForm.reset();
             })
             .catch(error => console.error('Error adding item:', error));
